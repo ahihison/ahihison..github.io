@@ -26,7 +26,7 @@
                     <ul class="subnav">
                         <li><a href="#">Merchandise</a></li>
                         <li><a href="#">Extras</a></li>
-                        <li><a href="#">Media</a></li>
+                        <li><a href="#media">Media</a></li>
                     </ul>
                 
                 </li>
@@ -41,12 +41,6 @@
               <div class="search-btn">
                 <i class ="search-icon ti-search" ></i>
               </div>
-              
-
-
-             
-
-
         </div>
 
 
@@ -79,6 +73,14 @@
                         <img src="./assets/img/band/member1.jpg" alt="Name" class="member-img">
                     </div>
                     <div class="clear"></div>
+                </div>
+            </div>
+            <div class="video-band">
+                <h2>VIDEO</h2>
+                <video id="media" controls src="./assets/video/Đen - Trốn Tìm ft. MTV band (M-V).mp4"> </video>
+                <div class="video-control"> <i class="control-play ti-hand-point-right"></i>
+                    <a href="https://www.youtube.com/watch?v=Ws-QlpSltr8">Đen - Trốn Tìm ft. MTV band (M/V)</a>
+                    
                 </div>
             </div>
             
@@ -243,8 +245,6 @@
         var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
         for(var i =0;i<menuItems.length;i++){
             var menuItem = menuItems[i];
-            
-            
             menuItem.onclick= function(event){
                 var isParentMenu = this.nextElementSibling&& this.nextElementSibling.classList.contains('subnav');
                 if(isParentMenu){
@@ -252,11 +252,8 @@
                 }else{
                     header.style.height= null;
                 }
-                
             }
         }
-
-        
     </script>
     
     <script>

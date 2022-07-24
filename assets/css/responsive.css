@@ -91,5 +91,12 @@
     .contact-form{
         margin-top: 32px;
     }
+
+    
+
+.modal-container
+{
+    max-width: 80%;
+}
    
 }

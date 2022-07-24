@@ -241,6 +241,8 @@ opacity: 0.6;
 }
 #content .member-list{
     margin-top: 32px;
+
+    
 }
 
 #content .member-name{
@@ -253,7 +255,12 @@ opacity: 0.6;
     border-radius: 4px;
 
 }
-
+#content .member-img:hover{
+   opacity: 0.8;
+   cursor: pointer;
+   transform: scale(1.1);
+   
+}
 /* Tour section */
 #content .tour-section{
     background-color: #000;
@@ -343,6 +350,44 @@ opacity: 0.6;
     cursor: pointer;
 }
 /* Contact form */
+.video-band video  {
+   
+    width: 80%;
+    height: 500px;
+   display: inline-block;
+    margin-left: 140px;
+    margin-right: 100px;
+    border-radius: 2rem;
+    padding: 64px 0;
+   
+
+}
+.video-band h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px;
+    color:#000;
+    margin-top: -48px;
+}
+.video-band .video-control{
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    margin-top: -48px;
+    margin-bottom: 16px;
+}
+.video-band a{
+    text-decoration: none;
+}
+.video-band a:hover{
+    color:#000;
+}
+.video-band .control-play{
+    font-size: 18px;
+
+    
+}
 .content-contact{
     margin-top: 48px;
 }
