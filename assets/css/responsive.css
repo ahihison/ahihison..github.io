@@ -36,6 +36,11 @@
 }
 /* Tablet */
 @media (min-width:46.25em)and(max-width:63.9375em){
+    .video-band video  {
+   
+     display: none;
+    
+    }
 
 }
 
@@ -92,11 +97,14 @@
         margin-top: 32px;
     }
 
-    
 
 .modal-container
 {
     max-width: 80%;
 }
    
+.video-band{
+    display: none;
+     }
+ 
 }

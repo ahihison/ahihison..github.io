@@ -355,10 +355,8 @@ opacity: 0.6;
     width: 80%;
     height: 500px;
    display: inline-block;
-    margin-left: 140px;
-    margin-right: 100px;
-    border-radius: 2rem;
-    padding: 64px 0;
+     border-radius: 2rem;
+    padding: 64px 0px 64px 240px;
    
 
 }
@@ -379,7 +377,9 @@ opacity: 0.6;
 }
 .video-band a{
     text-decoration: none;
+
 }
+
 .video-band a:hover{
     color:#000;
 }
@@ -388,6 +388,8 @@ opacity: 0.6;
 
     
 }
+
+
 .content-contact{
     margin-top: 48px;
 }
